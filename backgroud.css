@@ -1,0 +1,19 @@
+.background {
+  display: flex;
+  height: 100vh;
+  background-image: url(mansao.jfif); /*coloca uma imagem de funo */
+  background-repeat: no-repeat; /*faz com que a imagem não se repita*/
+  background-size: cover; /* faz com que a imagem preencha a tela toda */
+background-position: right top; /*para onde vai o zoom quando o site/img diminui
+
+}
+
+body {
+  background: red;
+}
+
+h1 {
+  margin: auto;
+  background: white;
+  padding: 1rem 2rem;
+}

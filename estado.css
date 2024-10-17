@@ -1,0 +1,27 @@
+a {
+  display: inline-block;
+  padding: 250px 200px;
+  background: rgb(174, 5, 5);
+  border-radius: 100%;
+  font-size: 5em;
+  text-decoration: none;
+  color: aliceblue;
+  margin: auto;
+}
+
+a:hover {
+  /*mudança de cor ao passar o mouse*/
+  background-color: rgb(128, 14, 14);
+}
+
+a:focus{ /*mudança ao apertar tab*/
+  font-size: 50em;
+  border: 40px solid yellow;
+}
+
+a:active{  /*mudança ao clicar*/
+    background-color: blueviolet;
+}
+a:visited{  /*mudança depois de visitar*/
+    background: orchid;
+}

@@ -1,0 +1,16 @@
+div {
+  height: 50vh;
+}
+
+.linear {
+  background-image: linear-gradient(
+    to right,
+    rgb(150, 192, 0),
+    rgb(0, 0, 0),
+    rgb(252, 252, 250)
+  );
+}
+
+.gradiente {
+  background-image: radial-gradient(circle, red, rgb(15, 204, 238), yellow);
+}

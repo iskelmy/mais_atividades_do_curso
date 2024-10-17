@@ -1,0 +1,14 @@
+.lista1 li:first-child {
+  background: rgb(105, 29, 181);
+}
+
+.lista2 li:nth-child(even) {
+  background: rgb(7, 9, 141);
+}
+.lista2 li:nth-child(odd) {
+  background: rgb(188, 161, 4);
+}
+.lista3 li:not(:last-child, :first-child) {
+    background: rgb(12, 164, 37);
+  }
+  

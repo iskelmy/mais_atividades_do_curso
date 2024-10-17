@@ -1,0 +1,23 @@
+h1::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  display: block;
+  background: greenyellow;
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  display: block;
+  background: greenyellow;
+  border-radius: 50%;
+  background-image: -o-linear-gradient(red, orange, white);
+  border: 2px solid #caf;
+  margin-right: 10px;
+}
